@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+
+<body background="black">
+
+    <div class="container">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger intent="WELCOME" chat-title="Halconbot" agent-id="c308239d-8158-48e9-8d96-2acf4ba90b12" language-code="es" chat-icon="icon.png">
+            <style>
+                .container {
+                    background-image: url("");
+                    background-repeat: no-repeat;
+                    min-height: 940px;
+                    height: 100%;
+                    margin: 10px 30px;
+                }
+                
+                df-messenger {
+                    --df-messenger-bot-message: #87E479;
+                    --df-messenger-button-titlebar-color: #008000;
+                    --df-messenger-button-titlebar-color: #008000;
+                    --df-messenger-chat-background-color: #fafafa;
+                    --df-messenger-font-color: #000;
+                    --df-messenger-send-icon: #898A88;
+                    --df-messenger-user-message: #9D01C4;
+                    --df-messenger-chip-border-color: #9D01C4;
+                }
+            </style>
+        </df-messenger>
+    </div>
+</body>
+
+</html>
