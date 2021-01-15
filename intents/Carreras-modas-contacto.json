@@ -1,0 +1,84 @@
+{
+  "id": "92e299d0-9db6-49d5-bb71-6ef59af6e010",
+  "parentId": "083b90f6-9cc7-4e99-969a-8f7c114ccb78",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-modas-contacto",
+  "auto": true,
+  "contexts": [
+    "Carreras-modas-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-2.Carreras-modas-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d0d0b254-48b5-4dc2-a9fb-325bc46fee3d",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d46e8b29-11b5-41d4-93cb-288df762809a",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cuál es tu correo electrónico?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2e02b5f3-6283-4630-9344-34c7e4eb8f90",
+          "name": "seccion",
+          "required": false,
+          "dataType": "",
+          "value": "#Carreras-modas-followup.carreras",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

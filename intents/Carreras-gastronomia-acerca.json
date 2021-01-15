@@ -1,0 +1,56 @@
+{
+  "id": "b7ae0800-e4d4-4805-9726-9c4d5ccc6a29",
+  "parentId": "ba47f7b6-4b56-44b0-9a42-35d71d54837d",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-gastronomia-acerca",
+  "auto": true,
+  "contexts": [
+    "Carreras-gastronomia-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-5.Carreras-gastronomia-custom-2",
+      "affectedContexts": [
+        {
+          "name": "Carreras-gastronomia-acerca-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "97cca6b4-9da6-48d5-a022-e655cfaa8f1b",
+          "name": "acerca",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$acerca",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

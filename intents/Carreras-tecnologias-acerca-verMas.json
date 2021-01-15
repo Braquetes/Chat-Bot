@@ -1,0 +1,123 @@
+{
+  "id": "78006917-2eeb-4200-81b9-121b17b2b53a",
+  "parentId": "08e025d5-9268-49ad-aa5f-0f2af8eb4e9f",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-tecnologias-acerca-verMas",
+  "auto": true,
+  "contexts": [
+    "Carreras-tecnologias-acerca-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-8.Carreras-tecnologias-custom-3.Carreras-tecnologias-acerca-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3ce158e5-1d74-4ce7-8027-94e3fe73789e",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/F.jpg",
+          "title": "Información sobre la carrera que necesitass",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/ventanas_user/menu.php",
+              "text": "Entra aquí..."
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/F.jpg",
+          "title": "Información sobre la carrera que necesitass",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/ventanas_user/menu.php",
+              "text": "Entra aquí..."
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Entra aquí para ver más sobre la carrera de modas",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/ventanas_user/menu.php",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Página Web"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra aquí...",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Entra  a la tarjeta de carreras y selecciona la carrera que gustes y ahí puedes ver toda la información"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

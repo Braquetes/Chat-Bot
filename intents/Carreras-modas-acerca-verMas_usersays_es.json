@@ -1,0 +1,17 @@
+[
+  {
+    "id": "3a5702de-d58f-4ad0-a738-81b7800cc34f",
+    "data": [
+      {
+        "text": "Ver completo",
+        "meta": "@sys.any",
+        "alias": "verMAs",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

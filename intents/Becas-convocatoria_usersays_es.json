@@ -1,0 +1,32 @@
+[
+  {
+    "id": "6fbd742b-d7df-4dfe-9f82-12d94bb9bcb1",
+    "data": [
+      {
+        "text": "convocatorias",
+        "meta": "@Becas",
+        "alias": "becas_eleccion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "076b6bec-a5f9-40ec-b8c3-b091c1f1ec5f",
+    "data": [
+      {
+        "text": "convocatoria",
+        "meta": "@Becas",
+        "alias": "becas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

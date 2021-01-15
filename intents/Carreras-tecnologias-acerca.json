@@ -1,0 +1,56 @@
+{
+  "id": "08e025d5-9268-49ad-aa5f-0f2af8eb4e9f",
+  "parentId": "5eeb2207-1630-4c78-9e52-d12ee9ded88d",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-tecnologias-acerca",
+  "auto": true,
+  "contexts": [
+    "Carreras-tecnologias-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-8.Carreras-tecnologias-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Carreras-tecnologias-acerca-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bfebc493-911f-4a9d-b258-cc973bbe2d32",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

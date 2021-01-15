@@ -1,0 +1,30 @@
+[
+  {
+    "id": "4cc5bea9-b14b-4542-82f5-2a8deb24a88d",
+    "data": [
+      {
+        "text": "grado que otorga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "858a1e60-170e-4ea0-82e4-91123849b763",
+    "data": [
+      {
+        "text": "grado",
+        "meta": "@sys.any",
+        "alias": "agricultura",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

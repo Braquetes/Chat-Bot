@@ -1,0 +1,58 @@
+{
+  "id": "90600f70-bb4e-4971-be01-4cf586c004f9",
+  "parentId": "ee03c1ed-7ab8-4b47-84a0-aa579fcb3479",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-negocios-grado",
+  "auto": true,
+  "contexts": [
+    "Carreras-negocios-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-3.Carreras-negocios-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3b81e503-9b42-491a-b56d-b45d22f342ca",
+          "name": "grado",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$grado",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En 3 años 8 meses lograrías una doble titulación\nTSU - Técnico Superior Universitario y LIC - Licenciatura."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "6ee36688-3238-4e78-a001-8be8d06ae4d2",
+    "data": [
+      {
+        "text": "tecnologias",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c2410387-17f3-4035-b300-53c83cca9cd2",
+    "data": [
+      {
+        "text": "tecnologías de la inf",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f9cb0cb5-646b-4627-aac8-0674ebb12d1b",
+    "data": [
+      {
+        "text": "tecnologías de la información",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "793ebc47-2375-40f6-b714-bb1247c281e1",
+    "data": [
+      {
+        "text": "ti",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3dfd6b32-8e68-403b-8219-08453b111009",
+    "data": [
+      {
+        "text": "tecnologías",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

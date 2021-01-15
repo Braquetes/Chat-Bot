@@ -1,0 +1,75 @@
+[
+  {
+    "id": "534164a6-a7b2-4211-88ae-9d6bbd42ceb7",
+    "data": [
+      {
+        "text": "braquetes",
+        "userDefined": false
+      },
+      {
+        "text": "@outlook.es",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d2f9cd23-9ab6-467b-946a-a2bca8cea636",
+    "data": [
+      {
+        "text": "braquetes",
+        "userDefined": false
+      },
+      {
+        "text": "@hotmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6484dc2e-5a9f-4832-bf3f-278fb220d033",
+    "data": [
+      {
+        "text": "braquetesss",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": "@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "41455693-43de-4f12-8b02-c9ea2766ffea",
+    "data": [
+      {
+        "text": "Contacto",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

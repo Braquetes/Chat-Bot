@@ -1,0 +1,145 @@
+{
+  "id": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Carreras-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "78810091-9441-47b1-b624-125679ee17ca",
+          "name": "Carrera_seleccion",
+          "required": true,
+          "dataType": "@Secciones",
+          "value": "$Carrera_seleccion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "¿Cuál te interesa?",
+          "replies": [
+            "Agricultura S.",
+            "Diseño y Moda I.",
+            "Desarrollo de N.",
+            "Energías Renovables",
+            "Gastronomía",
+            "Mecatrónica",
+            "Procesos A.",
+            "Tecnologías de la I."
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "La universidad cuenta con las siguientes carreras:",
+          "replies": [
+            "Agricultura S.",
+            "Diseño y Moda I.",
+            "Desarrollo de N.",
+            "Energías Renovables",
+            "Gastronomía",
+            "Mecatrónica",
+            "Procesos A.",
+            "Tecnologías de la I."
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "La universidad cuenta con las siguientes carreras:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Agricultura Sustentable"
+            },
+            {
+              "title": "Diseño y Moda Industral"
+            },
+            {
+              "title": "Desarrollo de Negocios"
+            },
+            {
+              "title": "Energías Renovables"
+            },
+            {
+              "title": "Gastronomía"
+            },
+            {
+              "title": "Mecatrónica"
+            },
+            {
+              "title": "Procesos Alimentarios"
+            },
+            {
+              "title": "Tecnologías de la Inf."
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La universidad cuenta con las siguientes carreras:\n-Agricultura Sustentable y Protegida\n-Diseño y Moda Industral\n-Desarrollo de Negocios\n-Energías Renovables\n-Gastronomía\n-Mecatrónica\n-Procesos Alimentarios\n-Tecnologías de la Información"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

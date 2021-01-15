@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a9408fdf-078c-42ff-ab8b-a28a852c40fb",
+    "data": [
+      {
+        "text": "Energías renovables",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d713a58c-c733-4db0-82a5-3ddade01ac48",
+    "data": [
+      {
+        "text": "renovables",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "11e70e29-3832-471a-9f17-81d9709ecfe7",
+    "data": [
+      {
+        "text": "energias",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a1b862b1-11d3-45dc-aa2e-193d826ae1a3",
+    "data": [
+      {
+        "text": "energías",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

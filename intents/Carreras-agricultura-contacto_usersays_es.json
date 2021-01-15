@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c77763af-48fc-49e4-a468-1947bc7130b2",
+    "data": [
+      {
+        "text": "braquetes",
+        "userDefined": false
+      },
+      {
+        "text": "@outlook.es",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "48fb9107-0066-4277-a675-32187d3c4180",
+    "data": [
+      {
+        "text": "braquetesss",
+        "userDefined": false
+      },
+      {
+        "text": "@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "37b53bfa-b738-4a05-92d4-d6c1ed4dcf79",
+    "data": [
+      {
+        "text": "braquetes",
+        "userDefined": false
+      },
+      {
+        "text": "@hotmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "57bce1bf-b66a-43bf-b4bc-52f67410c664",
+    "data": [
+      {
+        "text": "contacto",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

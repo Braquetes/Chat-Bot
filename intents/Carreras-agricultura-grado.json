@@ -1,0 +1,59 @@
+{
+  "id": "b970f3f1-18e6-4b97-9b74-a88f03aa293c",
+  "parentId": "3470f279-4d24-4316-9914-5fb0ede37571",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-agricultura-grado",
+  "auto": true,
+  "contexts": [
+    "Carreras-agricultura-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom.Carreras-agricultura-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0e6959dc-1199-453e-ae3d-b930733140b4",
+          "name": "agricultura",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$agricultura",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En 3 años 8 meses lograrías una doble titulación\nTSU - Técnico Superior Universitario e ING - Ingeniería."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

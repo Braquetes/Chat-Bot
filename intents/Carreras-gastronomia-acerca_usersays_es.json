@@ -1,0 +1,32 @@
+[
+  {
+    "id": "df6aac32-8e9d-4d15-bd32-786f84ad0d0e",
+    "data": [
+      {
+        "text": "acerca",
+        "meta": "@sys.any",
+        "alias": "acerca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6e134cfe-c5bf-4249-a8ec-603e8b5dd522",
+    "data": [
+      {
+        "text": "acerca de",
+        "meta": "@sys.any",
+        "alias": "acerca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

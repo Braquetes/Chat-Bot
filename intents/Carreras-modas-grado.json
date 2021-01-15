@@ -1,0 +1,59 @@
+{
+  "id": "eac66117-d069-49c8-bde1-3b62e0c25f78",
+  "parentId": "083b90f6-9cc7-4e99-969a-8f7c114ccb78",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-modas-grado",
+  "auto": true,
+  "contexts": [
+    "Carreras-modas-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-2.Carreras-modas-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e8a43ee1-9048-4f3f-af70-c2d1714a9315",
+          "name": "modas",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$modas",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "TSU - Técnico Superior Universitario"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

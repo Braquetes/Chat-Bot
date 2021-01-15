@@ -1,0 +1,17 @@
+[
+  {
+    "id": "5963144b-d8b5-484b-9fef-e61fc1a0c8fa",
+    "data": [
+      {
+        "text": "requisitos",
+        "meta": "@Becas",
+        "alias": "becas_requisitos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

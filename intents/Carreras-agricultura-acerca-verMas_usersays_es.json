@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1236f61d-0486-426b-bb11-97d1af619c11",
+    "data": [
+      {
+        "text": "Ver completo",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e16d989e-71c9-4fc6-805b-215fbf824dac",
+    "data": [
+      {
+        "text": "ver completo",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "lang": "es",
+    "updated": 0
+  }
+]

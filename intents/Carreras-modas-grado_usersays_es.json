@@ -1,0 +1,32 @@
+[
+  {
+    "id": "71c38800-2a40-493d-8480-f4ef39bc64b3",
+    "data": [
+      {
+        "text": "grado",
+        "meta": "@sys.any",
+        "alias": "modas",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "273c2a65-e9f4-437f-a00b-2891facd99b1",
+    "data": [
+      {
+        "text": "grado que otorga",
+        "meta": "@sys.any",
+        "alias": "modas",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

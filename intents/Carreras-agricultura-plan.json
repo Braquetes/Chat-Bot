@@ -1,0 +1,123 @@
+{
+  "id": "1ff5c1a3-6e3a-47ee-92a3-c74cc8b5e8a9",
+  "parentId": "3470f279-4d24-4316-9914-5fb0ede37571",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-agricultura-plan",
+  "auto": true,
+  "contexts": [
+    "Carreras-agricultura-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom.Carreras-agricultura-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "343cc9df-7be7-47e5-a177-2be48a0a46c4",
+          "name": "plan",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$plan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/carreras/agricultura.png",
+          "title": "Para ver el modelo curricular entra aqui",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/MapaCurricular_As_UTVCO.pdf",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/carreras/agricultura.png",
+          "title": "Para ver el modelo curricular entra aqui",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/MapaCurricular_As_UTVCO.pdf",
+              "text": "Ir a a página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "El modelo curricular lo puedes ver en la siguiente página",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/documentos/MapaCurricular_Dm_UTVCO.pdf",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Página web"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra aquí...",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Presiona el botón \"Ver carreras\" y selecciona la carrera por la cuál tienes interés"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

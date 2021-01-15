@@ -1,0 +1,47 @@
+[
+  {
+    "id": "2cc765d9-5c59-4afa-aecb-3ec5f5dc47d2",
+    "data": [
+      {
+        "text": "Agricultura S.",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2e288a13-bbbf-4804-aa61-cbecaa6523b5",
+    "data": [
+      {
+        "text": "agri",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d65e4179-7108-4a98-933f-f314214a0af3",
+    "data": [
+      {
+        "text": "agricultura",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

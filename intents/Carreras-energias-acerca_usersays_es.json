@@ -1,0 +1,32 @@
+[
+  {
+    "id": "eca92baa-5e20-48ca-a9f1-989bf470ace8",
+    "data": [
+      {
+        "text": "acerca",
+        "meta": "@sys.any",
+        "alias": "acerca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1755827e-e773-4147-bbb3-4cca0a9e6a9e",
+    "data": [
+      {
+        "text": "acerca de",
+        "meta": "@sys.any",
+        "alias": "acerca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

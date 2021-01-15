@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bb8228ad-be74-4a8f-a41f-d9f3c11d3820",
+    "data": [
+      {
+        "text": "plan de estudios",
+        "meta": "@sys.any",
+        "alias": "plan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

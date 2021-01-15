@@ -1,0 +1,84 @@
+{
+  "id": "01dfbc29-d17b-4c98-b0a3-b8060fd1aa66",
+  "parentId": "ee03c1ed-7ab8-4b47-84a0-aa579fcb3479",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-negocios-contacto",
+  "auto": true,
+  "contexts": [
+    "Carreras-negocios-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-3.Carreras-negocios-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6c5b2094-a3f9-46b5-9cbf-d5a534420e02",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "25efa006-828f-40e9-b08d-c7ded3f7125e",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cuál es tu correo eletrónico?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8c723358-cf99-4dd5-b16d-93b691aee9b3",
+          "name": "seccion",
+          "required": false,
+          "dataType": "",
+          "value": "#Carreras-negocios-followup.carreras",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

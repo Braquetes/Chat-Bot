@@ -1,0 +1,59 @@
+{
+  "id": "e1fb578c-cc5a-4b56-847d-6d18b3bbe0de",
+  "parentId": "59096459-66de-4f92-9228-31cc283f2a4e",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-mecatronica-grado",
+  "auto": true,
+  "contexts": [
+    "Carreras-mecatronica-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-6.Carreras-mecatronica-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cb8e180e-859c-4308-8ebf-da5ec3449c8c",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En 3 años 8 meses lograrías una doble titulación\nTSU - Técnico Superior Universitario e ING - Ingeniería."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

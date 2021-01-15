@@ -1,0 +1,56 @@
+{
+  "id": "aec1dbbb-c4c6-4b6b-a285-951ccb8b27cb",
+  "parentId": "aa750868-84ed-493b-83e2-bc35eabb9c9f",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-energias-acerca",
+  "auto": true,
+  "contexts": [
+    "Carreras-energias-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-4.Carreras-energias-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Carreras-energias-acerca-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "108682ae-e0c6-40ba-ab5b-aea7af1863ac",
+          "name": "acerca",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$acerca",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

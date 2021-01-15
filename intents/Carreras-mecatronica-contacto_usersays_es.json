@@ -1,0 +1,55 @@
+[
+  {
+    "id": "65a18a01-80cd-460b-a923-872f4b132eaa",
+    "data": [
+      {
+        "text": "josemartinez",
+        "userDefined": false
+      },
+      {
+        "text": "@hotmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "89183cbc-9c94-45df-9df1-ab22a8ad016b",
+    "data": [
+      {
+        "text": "braquetesss",
+        "userDefined": false
+      },
+      {
+        "text": "@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e73dcac3-04ca-4b6d-b1bd-8348c5ed68c5",
+    "data": [
+      {
+        "text": "contacto",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

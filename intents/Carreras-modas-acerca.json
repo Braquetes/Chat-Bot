@@ -1,0 +1,56 @@
+{
+  "id": "964aa415-6f25-4884-a1f0-99a423be9720",
+  "parentId": "083b90f6-9cc7-4e99-969a-8f7c114ccb78",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-modas-acerca",
+  "auto": true,
+  "contexts": [
+    "Carreras-modas-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-2.Carreras-modas-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Carreras-modas-acerca-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fe2f44fe-adcb-49f5-be3a-b3012465ea16",
+          "name": "acerca",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$acerca",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

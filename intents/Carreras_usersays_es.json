@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a2656384-2da4-4ab5-be30-009f2bed51b4",
+    "data": [
+      {
+        "text": "Carreras",
+        "meta": "@Secciones",
+        "alias": "Carrera_seleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8d14d815-4a59-4999-a3e0-a0b104bf478a",
+    "data": [
+      {
+        "text": "Carrera",
+        "meta": "@Secciones",
+        "alias": "Carrera_seleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

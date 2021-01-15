@@ -1,0 +1,62 @@
+[
+  {
+    "id": "65dbbcce-371e-44e6-8fcc-16ce560bf2b4",
+    "data": [
+      {
+        "text": "Desarrollo de N.",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f2319acf-eba6-41e5-8e3c-9a323fa0f3a0",
+    "data": [
+      {
+        "text": "desarrollo de negocios",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1704ceb8-d30b-4c8b-9e0a-dc019ea27bd9",
+    "data": [
+      {
+        "text": "desarollo",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "00454c29-5967-4796-acd1-ff4e60edefc4",
+    "data": [
+      {
+        "text": "negocios",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

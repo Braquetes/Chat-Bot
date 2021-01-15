@@ -1,0 +1,77 @@
+[
+  {
+    "id": "bb922828-28f9-4854-a616-99321d6a40d0",
+    "data": [
+      {
+        "text": "Diseño y Moda Industral",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "020f9968-a0fc-45d5-8d91-3719e550891c",
+    "data": [
+      {
+        "text": "Diseño y Moda I.",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "820123ac-a560-4119-ab9d-a76e7b1c1156",
+    "data": [
+      {
+        "text": "diseño de modas",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d41fd3b9-d00f-4a0a-88f7-7591ae13f419",
+    "data": [
+      {
+        "text": "modas",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "472dc41f-c72c-43d3-82ef-a0944800ebe4",
+    "data": [
+      {
+        "text": "diseño",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "b35a8409-52cc-465d-8a1e-6e56fb8341fc",
+    "data": [
+      {
+        "text": "procesos a",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "32fd0612-99b9-4bb7-b91d-6ce87b255c8f",
+    "data": [
+      {
+        "text": "procesos alimentarios",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dd801deb-adb3-4b3c-9d8b-cb76385764d6",
+    "data": [
+      {
+        "text": "procesos",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

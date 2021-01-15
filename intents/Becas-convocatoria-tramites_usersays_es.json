@@ -1,0 +1,32 @@
+[
+  {
+    "id": "6b906e97-ea6f-48cc-a699-255d057d13bc",
+    "data": [
+      {
+        "text": "trámite",
+        "meta": "@Becas",
+        "alias": "Becas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "854bab9b-4a63-48d2-83bd-42ca300b2e95",
+    "data": [
+      {
+        "text": "tramites",
+        "meta": "@Becas",
+        "alias": "Becas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

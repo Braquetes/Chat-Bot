@@ -1,0 +1,126 @@
+{
+  "id": "ba47f7b6-4b56-44b0-9a42-35d71d54837d",
+  "parentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-gastronomia",
+  "auto": true,
+  "contexts": [
+    "Carreras-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-5",
+      "affectedContexts": [
+        {
+          "name": "Carreras-gastronomia-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9e3157ca-2e8c-41d1-9fcc-8a8e79b568a3",
+          "name": "carreras",
+          "required": true,
+          "dataType": "@Carreras",
+          "value": "$carreras",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "¿Qué te gustaría ver?",
+          "replies": [
+            "Plan de estudio",
+            "Grado que otorga",
+            "Acerca de",
+            "Contacto"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "¿Qué te gustaría ver?",
+          "replies": [
+            "Plan de estudios",
+            "Grado que otorga",
+            "Acerca de",
+            "Contacto"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "¿Qué te gustaría ver?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Plan de estudios"
+            },
+            {
+              "title": "Grado que otorga"
+            },
+            {
+              "title": "Acerca de"
+            },
+            {
+              "title": "Contacto"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¿Qué te gustaría ver?\n-Plan de estudios\n-Grado que otorga\n-Acerca de\n-Contacto"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "49ff3bf2-bd41-4f04-84c8-f15f09700526",
+    "data": [
+      {
+        "text": "meca",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c1f839ed-ad10-4888-b730-f675a540dcdb",
+    "data": [
+      {
+        "text": "mecatrónica",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e4efff56-25ff-4d2c-addf-3a6a0a2efa0f",
+    "data": [
+      {
+        "text": "mecatronica",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

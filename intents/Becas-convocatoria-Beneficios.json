@@ -1,0 +1,51 @@
+{
+  "id": "dddf6f06-816b-4b6e-8ad4-11885bb871c8",
+  "parentId": "b9ea609c-ca76-471f-8584-7fa15418e905",
+  "rootParentId": "b9ec501d-5724-4075-b7ed-1af0e282aa55",
+  "name": "Becas-convocatoria-Beneficios",
+  "auto": true,
+  "contexts": [
+    "Becas-convocatoria-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Becas.Becas-custom.Becas-convocatoria-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e52c5af3-c2ae-4b2e-b610-1da4b2b5d691",
+          "name": "becas_beneficios",
+          "required": true,
+          "dataType": "@Becas",
+          "value": "$becas_beneficios",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bab04924-4d46-4a68-a2e3-f2a84b4befcb",
+  "parentId": "db11c02a-1e1e-4350-94ac-091fb9fdcd24",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-procesos-acerca",
+  "auto": true,
+  "contexts": [
+    "Carreras-procesos-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-7.Carreras-procesos-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Carreras-procesos-acerca-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7c7c8039-1bbb-4182-b7d0-dccd57b6b38e",
+          "name": "acerca",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$acerca",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "897487d4-8ba4-48c5-9227-f2f68d8abc3e",
+    "data": [
+      {
+        "text": "gastro",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ab253977-ed6d-4dff-8040-98d1f31f44ac",
+    "data": [
+      {
+        "text": "gastronomía",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bd415a72-b685-4a06-a553-41cbd2a42594",
+    "data": [
+      {
+        "text": "gastronomia",
+        "meta": "@Carreras",
+        "alias": "carreras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

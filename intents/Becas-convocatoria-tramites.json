@@ -1,0 +1,51 @@
+{
+  "id": "8b9c8bf1-d9b3-43d9-932f-f8bf04967f8b",
+  "parentId": "b9ea609c-ca76-471f-8584-7fa15418e905",
+  "rootParentId": "b9ec501d-5724-4075-b7ed-1af0e282aa55",
+  "name": "Becas-convocatoria-tramites",
+  "auto": true,
+  "contexts": [
+    "Becas-convocatoria-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Becas.Becas-custom.Becas-convocatoria-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "720efff5-0fd3-4ad6-b04c-45993cd0e27d",
+          "name": "Becas_eleccion",
+          "required": true,
+          "dataType": "@Becas",
+          "value": "$Becas_eleccion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

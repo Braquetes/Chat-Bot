@@ -1,0 +1,56 @@
+{
+  "id": "3ddb8e34-8773-4fa2-aa09-2913d3d7183d",
+  "parentId": "59096459-66de-4f92-9228-31cc283f2a4e",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-mecatronica-acerca",
+  "auto": true,
+  "contexts": [
+    "Carreras-mecatronica-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-6.Carreras-mecatronica-custom-4",
+      "affectedContexts": [
+        {
+          "name": "Carreras-mecatronica-acerca-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "74e5e51f-6aa9-4f14-8916-5f31a13c6130",
+          "name": "acerca",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$acerca",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
