@@ -1,0 +1,9 @@
+{
+  "id": "6a54041e-4ae3-4d7a-8074-a0ca8327602d",
+  "name": "Becas",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

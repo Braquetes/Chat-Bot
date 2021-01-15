@@ -1,0 +1,24 @@
+[
+  {
+    "value": "Fechas",
+    "synonyms": [
+      "Fechas"
+    ]
+  },
+  {
+    "value": "Documentos",
+    "synonyms": [
+      "Documentos",
+      "Doc"
+    ]
+  },
+  {
+    "value": "Proceso de trámite",
+    "synonyms": [
+      "Proceso de trámite",
+      "Proceso",
+      "Tramites",
+      "tramite"
+    ]
+  }
+]

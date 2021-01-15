@@ -1,0 +1,37 @@
+[
+  {
+    "value": "Requisitos",
+    "synonyms": [
+      "Requisitos",
+      "requisitos"
+    ]
+  },
+  {
+    "value": "Beneficios",
+    "synonyms": [
+      "Beneficios",
+      "beneficios"
+    ]
+  },
+  {
+    "value": "Trámites",
+    "synonyms": [
+      "Trámites",
+      "tramites"
+    ]
+  },
+  {
+    "value": "Documentos",
+    "synonyms": [
+      "Documentos",
+      "Doc"
+    ]
+  },
+  {
+    "value": "Convocatorias",
+    "synonyms": [
+      "Convocatorias",
+      "convocatoria"
+    ]
+  }
+]

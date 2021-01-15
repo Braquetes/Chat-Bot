@@ -1,0 +1,9 @@
+{
+  "id": "801bba13-b34f-4e61-afe2-9f2dade79e4d",
+  "name": "Carreras",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

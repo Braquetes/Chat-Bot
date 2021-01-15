@@ -1,0 +1,23 @@
+[
+  {
+    "value": "Usuario",
+    "synonyms": [
+      "Usuario",
+      "user"
+    ]
+  },
+  {
+    "value": "Trámites",
+    "synonyms": [
+      "Trámites",
+      "tramites"
+    ]
+  },
+  {
+    "value": "Documentos",
+    "synonyms": [
+      "Documentos",
+      "doc"
+    ]
+  }
+]

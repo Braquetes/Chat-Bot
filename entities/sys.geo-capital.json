@@ -1,0 +1,9 @@
+{
+  "id": "a66d7696-753e-4cee-89a8-26e82959e67c",
+  "name": "sys.geo-capital",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

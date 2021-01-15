@@ -1,0 +1,46 @@
+[
+  {
+    "value": "Fichas",
+    "synonyms": [
+      "Fichas",
+      "Fichas de admisión",
+      "Admisión"
+    ]
+  },
+  {
+    "value": "Becas",
+    "synonyms": [
+      "Becas",
+      "Beca"
+    ]
+  },
+  {
+    "value": "Universidad",
+    "synonyms": [
+      "Universidad",
+      "Uni"
+    ]
+  },
+  {
+    "value": "Preguntas frecuentes",
+    "synonyms": [
+      "Preguntas frecuentes",
+      "Preguntas",
+      "Frecuentes"
+    ]
+  },
+  {
+    "value": "Carreras",
+    "synonyms": [
+      "Carreras",
+      "Carrera"
+    ]
+  },
+  {
+    "value": "Estudiantes",
+    "synonyms": [
+      "Estudiantes",
+      "Estudiante"
+    ]
+  }
+]

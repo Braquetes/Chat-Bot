@@ -1,0 +1,9 @@
+{
+  "id": "dc2a078e-634c-4406-97c2-fde703382bad",
+  "name": "sys.percentage",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

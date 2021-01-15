@@ -1,0 +1,20 @@
+[
+  {
+    "value": "@outlook.es",
+    "synonyms": [
+      "@outlook.es"
+    ]
+  },
+  {
+    "value": "@gmail.com",
+    "synonyms": [
+      "@gmail.com"
+    ]
+  },
+  {
+    "value": "@hotmail.com",
+    "synonyms": [
+      "@hotmail.com"
+    ]
+  }
+]
