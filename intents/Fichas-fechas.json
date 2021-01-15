@@ -1,0 +1,93 @@
+{
+  "id": "af929898-ff05-451f-9a49-57295a5cdacb",
+  "parentId": "9ab1395c-26ae-4407-a82b-d07077c433c4",
+  "rootParentId": "9ab1395c-26ae-4407-a82b-d07077c433c4",
+  "name": "Fichas-fechas",
+  "auto": true,
+  "contexts": [
+    "Fichas-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fichas.Fichas-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3d5e24b0-0c9e-4e26-9901-6eceae620322",
+          "name": "fichas",
+          "required": true,
+          "dataType": "@Fichas",
+          "value": "$fichas",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Las fechas para solicitar fichas de admisión para el cuatrimestre Septiembre-Diciembre 2020, se ven en la tarjeta fichas y el apartado Fechas de admisión"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Las fechas para solicitar fichas de admisión para el cuatrimestre Septiembre-Diciembre 2020 son las siguientes:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/ventanas_user/menu.php",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Página Web"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra a la página para poder ver más información sobre las fichas",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

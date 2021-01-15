@@ -1,0 +1,32 @@
+[
+  {
+    "id": "978eedbc-4668-4022-90a1-6905985b6c7c",
+    "data": [
+      {
+        "text": "grado",
+        "meta": "@sys.any",
+        "alias": "grado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "abefb76e-7627-407e-8814-60330ba8e31d",
+    "data": [
+      {
+        "text": "grado que otorga",
+        "meta": "@sys.any",
+        "alias": "grado",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "d76e02fc-51ee-428b-ba48-9be85dd94c73",
+    "data": [
+      {
+        "text": "Curricular",
+        "meta": "@Universidad",
+        "alias": "universidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8c14ae99-8b94-4c8f-a653-47eb3f03422e",
+    "data": [
+      {
+        "text": "Modelo",
+        "meta": "@Universidad",
+        "alias": "universidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1756636c-c813-4f95-909d-5066d775e0a9",
+    "data": [
+      {
+        "text": "Modelo curricular",
+        "meta": "@Universidad",
+        "alias": "universidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  }
+]

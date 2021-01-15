@@ -1,0 +1,45 @@
+{
+  "id": "b5ddf99e-1688-4d82-9e7c-b801201e94ec",
+  "parentId": "6d7be66b-ee3b-4d88-b7ec-2574066c9e08",
+  "rootParentId": "6d7be66b-ee3b-4d88-b7ec-2574066c9e08",
+  "name": "Estudiantes - no",
+  "auto": true,
+  "contexts": [
+    "Estudiantes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Estudiantes.Estudiantes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Tienes que registrarte en HalconBot, entra aquí para registrarte https://halconbot.ml/  Cuando te registres vuelve y escribe \"Ya tengo cuenta\""
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

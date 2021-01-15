@@ -1,0 +1,138 @@
+{
+  "id": "2609ddfe-c170-4506-aece-32edb9dcf8b9",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b6d8f679-7f9b-4bdb-a9ad-e9659d4f0b80",
+          "name": "saludo",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "saludos",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "!Hola! Estas hablando con HalconBot. ¿En que te puedo ayudar?",
+          "replies": [
+            "Becas",
+            "Admisión",
+            "Universidad",
+            "Carreras",
+            "Estudiantes"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "!Hola!\nEstas hablando con HalconBot.\n¿En que te puedo ayudar?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Becas"
+            },
+            {
+              "title": "Universidad"
+            },
+            {
+              "title": "Carreras"
+            },
+            {
+              "title": "Admisión"
+            },
+            {
+              "title": "Estudiantes"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "!Hola! Estas hablando con HalconBot. ¿En que te puedo ayudar?",
+          "replies": [
+            "Becas",
+            "Fichas",
+            "Carreras",
+            "Estudiante",
+            "Universidad"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "!Hola!\nEstas hablando con HalconBot.\n¿En que te puedo ayudar?\n-Becas\n-Universidad\n-Carreras\n-Fichas\n-Estudiantes"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    },
+    {
+      "name": "TELEGRAM_WELCOME"
+    },
+    {
+      "name": "FACEBOOK_MEDIA"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

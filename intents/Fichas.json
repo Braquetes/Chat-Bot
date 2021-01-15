@@ -1,0 +1,117 @@
+{
+  "id": "9ab1395c-26ae-4407-a82b-d07077c433c4",
+  "name": "Fichas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Fichas-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "598181c5-5608-4e5c-855c-f3f7508b26ac",
+          "name": "Fichas_eleccion",
+          "required": false,
+          "dataType": "@Secciones",
+          "value": "$Fichas_eleccion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Tenemos los siguientes departamentos:",
+          "replies": [
+            "Proceso de trámite",
+            "Fechas de admisión",
+            "Documentos"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Tenemos los siguientes departamentos:",
+          "replies": [
+            "Proceso de trámite",
+            "Fechas de admisión",
+            "Documentos"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Tenemos los siguientes departamentos:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Proceso de trámite"
+            },
+            {
+              "title": "Fechas de admisión"
+            },
+            {
+              "title": "Documentos que necesitas"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Tenemos los siguientes departamentos: \n-Proceso de trámite\n-Fechas de admisión\n-Documentos que necesitas"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

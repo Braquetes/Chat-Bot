@@ -1,0 +1,54 @@
+{
+  "id": "cf743d8a-4049-4175-9b93-3986ed0eeb2d",
+  "parentId": "9516941e-30cd-4c8d-9f03-5a53899a24fc",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-ODS-Mas",
+  "auto": true,
+  "contexts": [
+    "Universidad-ODS-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom.Universidad-ODS-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cbec2460-c6fd-43eb-a93e-d52d91b4bb20",
+          "name": "Mas_informacion",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Mas_info",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

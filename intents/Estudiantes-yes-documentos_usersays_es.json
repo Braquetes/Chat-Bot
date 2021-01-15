@@ -1,0 +1,32 @@
+[
+  {
+    "id": "6266fbc8-d5f3-4ede-b771-57823bb58713",
+    "data": [
+      {
+        "text": "doc",
+        "meta": "@Estudiante",
+        "alias": "Estudiante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5216281f-6a63-41ca-95ed-c3d4e6463ad1",
+    "data": [
+      {
+        "text": "documentos",
+        "meta": "@Estudiante",
+        "alias": "Estudiante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

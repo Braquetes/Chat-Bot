@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a3e3b544-3d87-40a7-882e-ff0f050c772d",
+    "data": [
+      {
+        "text": "plan de estudios",
+        "meta": "@sys.any",
+        "alias": "plan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fbf9b549-73db-4670-be95-b2df6098a057",
+    "data": [
+      {
+        "text": "plan",
+        "meta": "@sys.any",
+        "alias": "plan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

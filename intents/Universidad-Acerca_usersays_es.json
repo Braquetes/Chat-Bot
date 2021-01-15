@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a4713a53-5642-4335-88f5-cf2d658cf4e1",
+    "data": [
+      {
+        "text": "Acerca",
+        "meta": "@Universidad",
+        "alias": "universidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f14a64fb-cd2a-48e0-9f3d-1e680ac8d519",
+    "data": [
+      {
+        "text": "Acerca de",
+        "meta": "@Universidad",
+        "alias": "universidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

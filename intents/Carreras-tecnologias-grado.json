@@ -1,0 +1,59 @@
+{
+  "id": "0dfda5d5-8978-4f2c-8b2e-f4841f217733",
+  "parentId": "5eeb2207-1630-4c78-9e52-d12ee9ded88d",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-tecnologias-grado",
+  "auto": true,
+  "contexts": [
+    "Carreras-tecnologias-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-8.Carreras-tecnologias-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ea2c215c-7b94-4497-b5f6-014ea8464899",
+          "name": "grado",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$grado",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En 3 años 8 meses lograrías una doble titulación\nTSU - Técnico Superior Universitario e ING - Ingeniería."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

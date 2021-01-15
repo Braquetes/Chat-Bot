@@ -1,0 +1,294 @@
+[
+  {
+    "id": "2265d1df-75e5-4095-b271-770a4c2515a2",
+    "data": [
+      {
+        "text": "Soy",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Rodolfo",
+        "meta": "@sys.any",
+        "alias": "userBot",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1cc0da0d-c3b9-4ae3-b0e7-c9b6815fb9ae",
+    "data": [
+      {
+        "text": "ya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9e18bdf8-67f7-4fe4-a909-3c14fd845db1",
+    "data": [
+      {
+        "text": "sii",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "972602c7-802a-441c-9940-8e685653d05d",
+    "data": [
+      {
+        "text": "Si tengo cuenta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ffe89136-c0f0-4456-99cc-5f4cd938082d",
+    "data": [
+      {
+        "text": "Ya tengo cuenta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c09dc892-59a9-4693-ad9e-62852af73fea",
+    "data": [
+      {
+        "text": "lobos",
+        "meta": "@sys.any",
+        "alias": "userBot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8d4a8305-b4b6-4c93-b186-a8afc42ab69a",
+    "data": [
+      {
+        "text": "UTTI192017",
+        "meta": "@sys.any",
+        "alias": "userBot",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "776a4b56-7e30-421b-bf1d-8dd2f2b4070e",
+    "data": [
+      {
+        "text": "rokiller",
+        "meta": "@sys.any",
+        "alias": "userBot",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f0ed7fa1-9e1b-4c56-8d9d-6724c1933623",
+    "data": [
+      {
+        "text": "simon",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ca586b6a-24af-467b-a4d4-814b64671175",
+    "data": [
+      {
+        "text": "obvio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3beeb983-cf46-4c40-b68c-542147bea4cd",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0ccc4d4a-6d1e-4d45-b614-c83c144dffc1",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "18770ff4-946e-4d41-b48a-83674f4a54e1",
+    "data": [
+      {
+        "text": "sí",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a68d5373-9517-4a76-827a-fb2d6878dc9f",
+    "data": [
+      {
+        "text": "por supuesto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "39561113-18c6-4c3f-a997-d371011a56bd",
+    "data": [
+      {
+        "text": "de acuerdo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "282d5312-7bac-4c22-83b7-a59b87621590",
+    "data": [
+      {
+        "text": "buena idea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2e0c3022-06b2-4c20-90fc-d7f165b8cdca",
+    "data": [
+      {
+        "text": "confirmar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4125fa15-f363-43a2-92c4-8b83a2221757",
+    "data": [
+      {
+        "text": "adelante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b5715f99-2ffc-4ea9-878c-5302853863c0",
+    "data": [
+      {
+        "text": "correcto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9b66ae00-e575-432a-b3fb-9ef8b14c2bc7",
+    "data": [
+      {
+        "text": "claro que sí",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "39cf6d20-d54a-4a07-bd01-e36c33ed7cf1",
+    "data": [
+      {
+        "text": "eso mismo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

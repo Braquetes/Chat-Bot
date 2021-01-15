@@ -1,0 +1,32 @@
+[
+  {
+    "id": "27e31ac1-303c-4961-b893-c5fe0f242cd3",
+    "data": [
+      {
+        "text": "doc",
+        "meta": "@Fichas",
+        "alias": "fichas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "468118e4-7c0e-4f24-ba43-ee3d131092c6",
+    "data": [
+      {
+        "text": "Documentos",
+        "meta": "@Fichas",
+        "alias": "fichas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

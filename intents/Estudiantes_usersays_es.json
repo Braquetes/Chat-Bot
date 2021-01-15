@@ -1,0 +1,47 @@
+[
+  {
+    "id": "a302fa1a-b325-4c5d-9efa-253e86bc6749",
+    "data": [
+      {
+        "text": "ya tengo cuenta",
+        "meta": "@Secciones",
+        "alias": "secciones",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "74c31631-bc5c-4f60-93a3-e39665f0831f",
+    "data": [
+      {
+        "text": "Estudiantes",
+        "meta": "@Secciones",
+        "alias": "secciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "eb65d442-1a4c-411a-bad5-4ef65e4e06cb",
+    "data": [
+      {
+        "text": "Estudiante",
+        "meta": "@Secciones",
+        "alias": "secciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

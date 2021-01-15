@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1e57be44-8a15-4283-a1c1-3384d0db2c3c",
+    "data": [
+      {
+        "text": "uni",
+        "meta": "@Secciones",
+        "alias": "Universidad_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9e1a3fa4-d04d-44a7-a5b1-3f05407a1211",
+    "data": [
+      {
+        "text": "Universidad",
+        "meta": "@Secciones",
+        "alias": "Universidad_eleccion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

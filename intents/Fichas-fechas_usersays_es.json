@@ -1,0 +1,36 @@
+[
+  {
+    "id": "2925e447-0506-44fe-882b-0cbd839b6ff9",
+    "data": [
+      {
+        "text": "fechas",
+        "meta": "@Fichas",
+        "alias": "fichas",
+        "userDefined": false
+      },
+      {
+        "text": " de admisión",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4946ed2a-ec27-4ee4-9e38-c6c9ad41a6bb",
+    "data": [
+      {
+        "text": "fechas",
+        "meta": "@Fichas",
+        "alias": "fichas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

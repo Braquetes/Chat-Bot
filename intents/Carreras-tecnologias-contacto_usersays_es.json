@@ -1,0 +1,36 @@
+[
+  {
+    "id": "641afcab-aae8-404c-b1cf-cb8f99ca82d4",
+    "data": [
+      {
+        "text": "braquetesss",
+        "userDefined": false
+      },
+      {
+        "text": "@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7e043e27-bd51-4615-9afb-2ebc9acb1a18",
+    "data": [
+      {
+        "text": "contacto",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "22f27539-dbb8-4158-88a6-4e7764d71d42",
+    "data": [
+      {
+        "text": "Mas informacion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e2834cce-09a9-4133-a323-eb2ac74e81d6",
+    "data": [
+      {
+        "text": "Más información",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

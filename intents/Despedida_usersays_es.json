@@ -1,0 +1,92 @@
+[
+  {
+    "id": "73b80111-3772-408f-9717-fd92daf2a64c",
+    "data": [
+      {
+        "text": "Eso ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " todo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "040ec9f5-880e-4e04-a0f9-de634c751104",
+    "data": [
+      {
+        "text": "Perfecto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "342feaf1-307a-4ded-8552-776f2513da07",
+    "data": [
+      {
+        "text": "Esta bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bd359d4b-c473-4ab5-a108-cb990c04a2bf",
+    "data": [
+      {
+        "text": "Ok",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e14d09a0-e0cf-4422-ba0c-616f29ab90d7",
+    "data": [
+      {
+        "text": "Gracias",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "41118cc4-db30-439d-9473-3dbfad81c744",
+    "data": [
+      {
+        "text": "Adiós",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "29673100-288d-462f-8dea-0dfcb8a563c2",
+    "data": [
+      {
+        "text": "trámites",
+        "meta": "@Estudiante",
+        "alias": "estudiante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7be23f82-0577-47fa-8615-c758554583ca",
+    "data": [
+      {
+        "text": "tramites",
+        "meta": "@Estudiante",
+        "alias": "estudiante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

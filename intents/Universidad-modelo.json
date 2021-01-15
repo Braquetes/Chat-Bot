@@ -1,0 +1,92 @@
+{
+  "id": "ec9e4310-da91-4d8d-9912-5bdb2732ce3c",
+  "parentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-modelo",
+  "auto": true,
+  "contexts": [
+    "Universidad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "52cf4301-1f74-4998-a367-3aa39b85f2c6",
+          "name": "universidad",
+          "required": true,
+          "dataType": "@Universidad",
+          "value": "$universidad",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Modelo curricular",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Modelo curricular",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/imagenes/modelocurricular.jpg",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Modelo curricular"
+            }
+          ],
+          "textToSpeech": "",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/modelocurricular.jpg",
+            "accessibilityText": "modelocurricular"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Selecciona la tarjeta universidad y has click en la primera imagen."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

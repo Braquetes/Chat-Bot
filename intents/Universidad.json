@@ -1,0 +1,127 @@
+{
+  "id": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Universidad-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0ac30126-0024-421c-8fcb-32892a5c79e4",
+          "name": "Universidad_eleccion",
+          "required": false,
+          "dataType": "@Secciones",
+          "value": "$Universidad_eleccion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "¿Qué es lo quieres saber?",
+          "replies": [
+            "ODS",
+            "Modelo curricular",
+            "Filosofía",
+            "Departamentos",
+            "Acerca de"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Tenemos lo siguientes departamentos:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "ODS"
+            },
+            {
+              "title": "Filosofía"
+            },
+            {
+              "title": "Modelo Curricular"
+            },
+            {
+              "title": "Departamentos"
+            },
+            {
+              "title": "Acerca de"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "¿Qué es lo quieres saber?",
+          "replies": [
+            "Modelo Curricular",
+            "ODS",
+            "Filosofía",
+            "Departamentos",
+            "Acerca de"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Tenemos lo siguientes departamentos\n-ODS\n-FILOSOFÍA\n-MODELO CURRICULAR\n-ACERCA DE\n-DEPARTAMENTOS"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

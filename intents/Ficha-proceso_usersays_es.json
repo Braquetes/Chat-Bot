@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f85d6390-33e4-4957-a5cb-dda373274960",
+    "data": [
+      {
+        "text": "tramite",
+        "meta": "@Fichas",
+        "alias": "fichas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "47dbe43b-24b7-4fb9-a67a-921cf9010e3d",
+    "data": [
+      {
+        "text": "proceso",
+        "meta": "@Fichas",
+        "alias": "fichas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

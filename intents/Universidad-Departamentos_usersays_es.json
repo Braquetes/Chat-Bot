@@ -1,0 +1,32 @@
+[
+  {
+    "id": "063c1dbf-e343-49aa-98fe-53030c949a74",
+    "data": [
+      {
+        "text": "Depa",
+        "meta": "@Universidad",
+        "alias": "universidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b5021a11-8145-4717-9a4a-1d87ef1f6961",
+    "data": [
+      {
+        "text": "Departamentos",
+        "meta": "@Universidad",
+        "alias": "universidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

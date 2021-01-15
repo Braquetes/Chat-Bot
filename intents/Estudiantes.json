@@ -1,0 +1,113 @@
+{
+  "id": "6d7be66b-ee3b-4d88-b7ec-2574066c9e08",
+  "name": "Estudiantes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Estudiantes-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3dcf8455-9bb1-4158-ad0e-51e8fe85dcfe",
+          "name": "secciones",
+          "required": false,
+          "dataType": "@Secciones",
+          "value": "$secciones",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Para entrar aquí necesitas una cuenta.\n¿Ya tienes una cuenta en la página de Halconbot?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Si"
+            },
+            {
+              "title": "No"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Para entrar aquí necesitas una cuenta. ¿Ya tienes una cuenta en la página de Halconbot?",
+          "replies": [
+            "Si",
+            "No"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Para entrar aquí necesitas una cuenta. ¿Ya tienes una cuenta en la página de Halconbot?",
+          "replies": [
+            "Si",
+            "No"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para entrar aquí necesitas una cuenta.\n¿Ya tienes una cuenta en la página de Halconbot?",
+            "Necesitas una cuenta en HalconBot\n¿Ya la tienes?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

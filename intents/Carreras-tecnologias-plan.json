@@ -1,0 +1,123 @@
+{
+  "id": "5123467a-ed7a-4445-b78b-84f8f0a6714e",
+  "parentId": "5eeb2207-1630-4c78-9e52-d12ee9ded88d",
+  "rootParentId": "94f31ef4-b256-402b-8511-86fcdbee3df9",
+  "name": "Carreras-tecnologias-plan",
+  "auto": true,
+  "contexts": [
+    "Carreras-tecnologias-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carreras.Carreras-custom-8.Carreras-tecnologias-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1713acbd-6dd0-4392-81db-493f5689dcd2",
+          "name": "plan",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$plan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/carreras/tecnologias.png",
+          "title": "Para ver el modelo curricular entra aqui",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/MapaCurricular_Ti_UTVCO.pdf",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/carreras/tecnologias.png",
+          "title": "Para ver el modelo curricular entra aqui",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/MapaCurricular_Ti_UTVCO.pdf",
+              "text": "Ir a a página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "El modelo curricular lo puedes ver en la siguiente página",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/documentos/MapaCurricular_Ti_UTVCO.pdf",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra aquí...",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Presiona el botón \"Ver carreras\" y selecciona la carrera por la cuál tienes interés"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

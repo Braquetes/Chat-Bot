@@ -1,0 +1,47 @@
+[
+  {
+    "id": "66b4921b-5faa-4b3d-b798-5b31e6c2674d",
+    "data": [
+      {
+        "text": "Admisión",
+        "meta": "@Secciones",
+        "alias": "Fichas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "17f1b272-32da-4420-8346-224be99bd04b",
+    "data": [
+      {
+        "text": "Admision",
+        "meta": "@Secciones",
+        "alias": "Fichas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c35783c8-da4f-4204-87c0-5a3111288fe5",
+    "data": [
+      {
+        "text": "Fichas",
+        "meta": "@Secciones",
+        "alias": "Fichas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "4ca000a0-a344-46c6-96cb-c140c49f9753",
+  "parentId": "d6824058-1a0e-4cef-a979-46ac8267c4bc",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-Filosofia-mas",
+  "auto": true,
+  "contexts": [
+    "Universidad-Filosofia-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom.Universidad-Filosofia-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "http://utvco.edu.mx/universidad.html"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

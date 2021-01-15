@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f2281874-bdf2-4d8b-a120-5205c4c86579",
+    "data": [
+      {
+        "text": "Filosofia",
+        "meta": "@Universidad",
+        "alias": "universidad_filosofia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d4444490-5113-4c27-b1a1-189ebd66824d",
+    "data": [
+      {
+        "text": "Filosofía",
+        "meta": "@Universidad",
+        "alias": "universidad_filosofia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

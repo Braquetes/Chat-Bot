@@ -1,0 +1,59 @@
+{
+  "id": "de225351-318b-4540-b6ae-45a05e744143",
+  "parentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-Acerca",
+  "auto": true,
+  "contexts": [
+    "Universidad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7a98ef98-3a61-47aa-bec1-c2868d85c790",
+          "name": "universidad",
+          "required": false,
+          "dataType": "@Universidad",
+          "value": "$universidad",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para conocer más a detalle, te invitamos a entrar a la página y consultar todo sobre la universidad en  http://utvco.edu.mx/universidad.html"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

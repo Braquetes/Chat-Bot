@@ -1,0 +1,184 @@
+{
+  "id": "c9f6506d-c306-4410-a884-47bab8458874",
+  "parentId": "159f0d22-a3fa-4f95-b9d3-0ba7a00f9808",
+  "rootParentId": "6d7be66b-ee3b-4d88-b7ec-2574066c9e08",
+  "name": "Estudiantes-yes-tramites",
+  "auto": true,
+  "contexts": [
+    "Estudiantes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Estudiantes.Estudiantes-yes.Estudiantes-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ae75c934-79e1-4c56-875c-0725d419b84c",
+          "name": "estudiante",
+          "required": true,
+          "dataType": "@Estudiante",
+          "value": "$estudiante",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/Ins_ing_lic.jpg",
+          "title": "Inscripción a ING/LIC",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/inscripcion_licing.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/esta_titu.jpg",
+          "title": "Estadía y tutulación",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/imagenes/esta_titu.jpg",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/memoria.jpg",
+          "title": "Memoria de estadía profesional",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/Estadia_titulacion.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/Ins_ing_lic.jpg",
+          "title": "Inscripción a ING/LIC",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/inscripcion_licing.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/esta_titu.jpg",
+          "title": "Estadía y tutulación",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/imagenes/esta_titu.jpg",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/memoria.jpg",
+          "title": "Memoria de estadía profesional",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/Estadia_titulacion.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Entra aquí",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Trámites",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/ventanas_user/menu.php",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Ir a los documentos"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra aquí",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Entra en la tarjeta estudiantes y selecciona Trámites"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

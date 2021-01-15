@@ -1,0 +1,93 @@
+{
+  "id": "f49d72e0-4104-4ede-9721-a605692e7bb5",
+  "parentId": "9ab1395c-26ae-4407-a82b-d07077c433c4",
+  "rootParentId": "9ab1395c-26ae-4407-a82b-d07077c433c4",
+  "name": "Ficha-proceso",
+  "auto": true,
+  "contexts": [
+    "Fichas-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fichas.Fichas-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5b8a3fbd-e8c1-4afd-a854-b62ddb55b312",
+          "name": "fichas",
+          "required": true,
+          "dataType": "@Fichas",
+          "value": "$fichas",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "El proceso que debes seguir para ingresar a la universidad esta en: https://halconbot.ml/ventanas_user/menu.php",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El proceso que debes seguir para ingresar a la universidad esta en: https://halconbot.ml/ventanas_user/menu.php"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El proceso que debes seguir para ingresar a la universidad esta en: https://halconbot.ml/ventanas_user/menu.php"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El proceso que debes seguir para ingresar a la universidad esta en la tarjeta fichas, entra y ve el documento que se llama proceso de admision."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

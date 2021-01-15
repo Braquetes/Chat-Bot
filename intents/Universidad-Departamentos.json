@@ -1,0 +1,273 @@
+{
+  "id": "66157cba-2b27-42d7-bae7-879fdac0704a",
+  "parentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-Departamentos",
+  "auto": true,
+  "contexts": [
+    "Universidad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "946d7028-442c-4a77-961d-38015409720c",
+          "name": "universidad",
+          "required": false,
+          "dataType": "@Universidad",
+          "value": "$universidad",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para ver los departamentos debes ir a: https://halconbot.ml/informacion/departamentos.php o  entra a la tarjeta Universidad y da click en el botón Ver departamentos"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Para ver los departamentos debes ir a",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/informacion/departamentos.php",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Página Web"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra a la página para poder ver los departamentos de la Universidad",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/cognitivo.jpg",
+          "title": "Cognitivo",
+          "buttons": [
+            {
+              "postback": "https://www.facebook.com/IncubadoraCOGNITIVO",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/vinculacion.jpg",
+          "title": "Vinculación",
+          "buttons": [
+            {
+              "postback": "http://utvco.edu.mx/vinculacion.html",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/ECDE.jpg",
+          "title": "Educación Continua y Desarrollo Ejecutivo",
+          "buttons": [
+            {
+              "postback": "http://utvco.edu.mx/educacioncontinua.html",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/conocer.jpg",
+          "title": "Conocer",
+          "buttons": [
+            {
+              "postback": "https://conocer.gob.mx/",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/movilidad.jpg",
+          "title": "Movilidad",
+          "buttons": [
+            {
+              "postback": "http://utvco.edu.mx/movilidad.html",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/Cmujer.jpeg",
+          "title": "C - Mujer",
+          "buttons": [
+            {
+              "postback": "https://www.facebook.com/CMUJERLIDER",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/cognitivo.jpg",
+          "title": "Cognitivo",
+          "buttons": [
+            {
+              "postback": "https://www.facebook.com/IncubadoraCOGNITIVO",
+              "text": "Ir a página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/vinculacion.jpg",
+          "title": "Vinculación",
+          "buttons": [
+            {
+              "postback": "http://utvco.edu.mx/vinculacion.html",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/ECDE.jpg",
+          "title": "Educación Continua y Desarrollo Ejecutivo",
+          "buttons": [
+            {
+              "postback": "http://utvco.edu.mx/educacioncontinua.html",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/conocer.jpg",
+          "title": "Conocer",
+          "buttons": [
+            {
+              "postback": "https://conocer.gob.mx/",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/movilidad.jpg",
+          "title": "Movilidad",
+          "buttons": [
+            {
+              "postback": "http://utvco.edu.mx/movilidad.html",
+              "text": "Ir a la página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/Cmujer.jpeg",
+          "title": "C - Mujer",
+          "buttons": [
+            {
+              "postback": "https://www.facebook.com/CMUJERLIDER",
+              "text": "Ir a página"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

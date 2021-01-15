@@ -1,0 +1,75 @@
+{
+  "id": "13f491f3-664b-46b4-a9e7-03b9497da524",
+  "parentId": "9516941e-30cd-4c8d-9f03-5a53899a24fc",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-ODS - yes",
+  "auto": true,
+  "contexts": [
+    "Universidad-ODS-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom.Universidad-ODS-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Aquí tienes la página",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Página Web"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra a la página para poder ver los ODS  de la Universidad",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

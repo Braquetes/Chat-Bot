@@ -1,0 +1,184 @@
+{
+  "id": "a3811bd7-c574-44d6-842b-ad24827620b3",
+  "parentId": "159f0d22-a3fa-4f95-b9d3-0ba7a00f9808",
+  "rootParentId": "6d7be66b-ee3b-4d88-b7ec-2574066c9e08",
+  "name": "Estudiantes-yes-documentos",
+  "auto": true,
+  "contexts": [
+    "Estudiantes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Estudiantes.Estudiantes-yes.Estudiantes-yes-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5b737ac2-3088-41fd-a76f-7f21de1a4adb",
+          "name": "Estudiante",
+          "required": true,
+          "dataType": "@Estudiante",
+          "value": "$Estudiante",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/reg_Esta.jpg",
+          "title": "Registro de estadía",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/REGISTRO_ESTADIA.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/cronograma.jpg",
+          "title": "Cronograma de actvidades",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/CRONOGRAMA_ACTIVIDADES.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/eva_men.jpg",
+          "title": "Evaluación mensual de estadías",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/EVALUACION_MENSUAL.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/reg_Esta.jpg",
+          "title": "Registro de estadía",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/REGISTRO_ESTADIA.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/cronograma.jpg",
+          "title": "Cronograma de actvidades",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/CRONOGRAMA_ACTIVIDADES.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/eva_men.jpg",
+          "title": "Evaluación mensual de estadías",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/CRONOGRAMA_ACTIVIDADES.pdf",
+              "text": "Ir"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Entra aquí",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Documentos",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/ventanas_user/menu.php",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Ir a los documentos"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra aquí",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Entra en la tarjeta estudiantes y selecciona Documentos"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,57 @@
+{
+  "id": "159f0d22-a3fa-4f95-b9d3-0ba7a00f9808",
+  "parentId": "6d7be66b-ee3b-4d88-b7ec-2574066c9e08",
+  "rootParentId": "6d7be66b-ee3b-4d88-b7ec-2574066c9e08",
+  "name": "Estudiantes-yes",
+  "auto": true,
+  "contexts": [
+    "Estudiantes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Estudiantes.Estudiantes-yes",
+      "affectedContexts": [
+        {
+          "name": "Estudiantes-yes-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1804de73-1aa4-44e0-b7bb-f393797ffe04",
+          "name": "userBot",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$userBot",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa tu nombre de usuario con el que te registraste en la página:"
+            },
+            {
+              "lang": "es",
+              "value": "¿Cuál es tu nombre de usuario en la página?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

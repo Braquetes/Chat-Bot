@@ -1,0 +1,76 @@
+{
+  "id": "9516941e-30cd-4c8d-9f03-5a53899a24fc",
+  "parentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-ODS",
+  "auto": true,
+  "contexts": [
+    "Universidad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom",
+      "affectedContexts": [
+        {
+          "name": "Universidad-ODS-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8b305f60-4779-484e-b0ae-e4fd00961e92",
+          "name": "Universidad_ODS",
+          "required": true,
+          "dataType": "@Universidad",
+          "value": "$Universidad_ODS",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En la universidad tenemos 8 ODS que puedes ver en la tarjeta Universidad, haz click en Ver universidad y despues en Ver departamentos"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "En la universidad tenemos 8 ODS que puedes ver en https://halconbot.ml/\n¿Quieres ir a la página?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

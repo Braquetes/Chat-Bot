@@ -1,0 +1,153 @@
+{
+  "id": "64b3a580-bdfb-4523-9a5c-daa93c03ce4c",
+  "parentId": "9ab1395c-26ae-4407-a82b-d07077c433c4",
+  "rootParentId": "9ab1395c-26ae-4407-a82b-d07077c433c4",
+  "name": "Fichas-Documentos",
+  "auto": true,
+  "contexts": [
+    "Fichas-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fichas.Fichas-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3aa4f0fc-e92c-4951-aa0c-cf332c00178b",
+          "name": "fichas",
+          "required": true,
+          "dataType": "@Fichas",
+          "value": "$fichas",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/solicitud.png",
+          "title": "Solicitud de admisión",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/SOLICITUD%20DE%20ADMISION.pdf",
+              "text": "Ver archivo"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://halconbot.ml/imagenes/inscripci%C3%B3n.png",
+          "title": "Solicitud de inscripción",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/SOLICITUD%20DE%20INSCRIPCI%C3%93N.pdf",
+              "text": "Ver archivo"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Documentos:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/ventanas_user/menu.php",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Página Web"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Para ver los documentos entra a la página",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/solicitud.png",
+          "title": "Solicitud de admisión",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/SOLICITUD%20DE%20ADMISION.pdf",
+              "text": "Ver archivo"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://halconbot.ml/imagenes/inscripci%C3%B3n.png",
+          "title": "Solicitud de inscripción",
+          "buttons": [
+            {
+              "postback": "https://halconbot.ml/documentos/SOLICITUD%20DE%20INSCRIPCI%C3%93N.pdf",
+              "text": "Ver archivo"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para ver los documentos que necesitas, entra a la tarjeta fichas y selecciona el documento que quieres ver"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

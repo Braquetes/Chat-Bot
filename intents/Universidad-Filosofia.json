@@ -1,0 +1,76 @@
+{
+  "id": "d6824058-1a0e-4cef-a979-46ac8267c4bc",
+  "parentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "rootParentId": "ff049ce2-dc39-48b1-bab3-6b006f77098f",
+  "name": "Universidad-Filosofia",
+  "auto": true,
+  "contexts": [
+    "Universidad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Universidad.Universidad-custom",
+      "affectedContexts": [
+        {
+          "name": "Universidad-Filosofia-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "93718d30-ba72-4065-b743-75095974ac15",
+          "name": "universidad_filosofia",
+          "required": true,
+          "dataType": "@Universidad",
+          "value": "$universidad_filosofia",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Misión: \nSomos una Institución de educació superior tecnológica que forma profesionistas compotentes con visión emprendedora y sentido humano, que impacten en el desarrollo sustentable de su entorno.\nVisión:\nSer la institución con principios que empodere el talento humano a través de la excelencia academica, vinculación estratégica e innovación de procesos.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Misión: \nSomos una Institución de educació superior tecnológica que forma profesionistas compotentes con visión emprendedora y sentido humano, que impacten en el desarrollo sustentable de su entorno.\nVisión:\nSer la institución con principios que empodere el talento humano a través de la excelencia academica, vinculación estratégica e innovación de procesos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
