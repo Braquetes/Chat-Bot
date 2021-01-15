@@ -1,0 +1,32 @@
+[
+  {
+    "id": "138ad39f-0c7c-4d2b-8521-3fa6e5b58e4d",
+    "data": [
+      {
+        "text": "beca",
+        "meta": "@Secciones",
+        "alias": "Becas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c554eee1-28aa-4f22-84b0-301c1c59e02d",
+    "data": [
+      {
+        "text": "Becas",
+        "meta": "@Secciones",
+        "alias": "Becas_eleccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  }
+]

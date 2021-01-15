@@ -1,0 +1,70 @@
+{
+  "id": "b9ec501d-5724-4075-b7ed-1af0e282aa55",
+  "name": "Becas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Becas-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ba927ffb-d106-4a6b-935a-817392973ce6",
+          "name": "Becas_eleccion",
+          "required": false,
+          "dataType": "@Secciones",
+          "value": "$Becas_eleccion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Las becas de apoyo económico no están disponibles en este momento, por problemas de la pandemia se suspendieron algunas becas."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¿En que mas te puedo ayudar?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

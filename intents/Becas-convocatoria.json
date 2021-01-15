@@ -1,0 +1,102 @@
+{
+  "id": "b9ea609c-ca76-471f-8584-7fa15418e905",
+  "parentId": "b9ec501d-5724-4075-b7ed-1af0e282aa55",
+  "rootParentId": "b9ec501d-5724-4075-b7ed-1af0e282aa55",
+  "name": "Becas-convocatoria",
+  "auto": true,
+  "contexts": [
+    "Becas-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Becas.Becas-custom",
+      "affectedContexts": [
+        {
+          "name": "Becas-convocatoria-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "530dbfd9-d6f6-47db-9001-80092ec4ba6b",
+          "name": "becas_eleccion",
+          "required": true,
+          "dataType": "@Becas",
+          "value": "$becas_eleccion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Las becas de apoyo económico no están disponibles en este momento, por problemas de la pandemia se suspendieron algunas becas."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Aquí puedes ver todas las convocatorias que tiene activa la universidad:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Halconbot",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://halconbot.ml/ventanas_user/menu.php",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Página Web"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Entra a la página para poder",
+          "image": {
+            "url": "https://halconbot.ml/imagenes/F.jpg",
+            "accessibilityText": "Logo"
+          },
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": -1,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
